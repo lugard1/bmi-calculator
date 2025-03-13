@@ -9,21 +9,19 @@
 <body>
   <div class="container">
     <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
-    <div>
-      <label for="height">Your Height (cm)&sup2</label><br>
+
+      <p>Your Height (cm)&sup2</p>
       <input id="height" class="input" type="number" value="180" placeholder="Enter your height">
-    </div>
-    <div>
-      <label for="weight">Your Weight (kg)</label><br>
+
+    
+      <p>Your Weight (kg)</p>
       <input id="weight" class="input" type="number" value="80" placeholder="Enter your weight">
-    </div>
-    <div id="btn" class="btn">
-      <button>Compute BMI</button>
-    </div>
-    <div>
-      <label for="result"></label>
-      <input id="result" class="input result" type="number">
-    </div>
+
+    
+    <button id="btn" class="btn">Compute BMI</button>
+    <p>Your BMI:</p>
+    <input id="result" class="input result" type="number">
+    
     <h4 class="info-text">Weight Condition:<span id="weight-condition" class="weight-condition">Underweight</span></h4>
   </div>
 </body>
